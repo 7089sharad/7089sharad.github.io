@@ -2,19 +2,36 @@
         Font, Alignment */
         body {
             background-image:url("../bridge.jpg");
-	    background-size: cover;	
+	        background-size: cover;	
             font-family: Verdana;
             text-align: center;
         }
  
         /* Styling the Form (Color, Padding, Shadow) */
         form {
-            background-color: #fff;
+            background-image: url(boat.jpg);
+            background-size: cover;
+            /* background-color: #fff; */
             max-width: 500px;
             margin: 50px auto;
             padding: 30px 20px;
             box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
+        #but2,#but3{
+  
+            width: 81px;
+            height: 36px;
+            border-radius: 10px;    
+            border: solid 1px #8c96ab;
+            background-color: #fff;
+            margin-left: 5px;
+            color: #8c96ab;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: bold;
+          
+          }
  
         /* Styling form-control Class */
         .form-control {
@@ -62,4 +79,42 @@
             margin-bottom: 20px;
         }	
 		
-	
+        /* form{
+           
+        background: linear-gradient(-45deg, #60fdfd, #8583ff, #30f3a2, #23d5ab);
+        background-size: 900% 900%;
+        -webkit-animation: gradient 1s ease infinite;
+                animation: gradient 1s ease infinite;
+        }
+        input,select{
+           
+            background: linear-gradient(-45deg, #ffffff, #5e5e5e, #ffffff, #5e5e5e);
+            background-size: 900% 900%;
+            -webkit-animation: gradient 10s ease infinite;
+                    animation: gradient 10s ease infinite;
+            }
+        
+        @-webkit-keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+        }
+        
+        @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+        }
+         */
