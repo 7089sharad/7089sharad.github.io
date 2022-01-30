@@ -1,7 +1,7 @@
 /* Styling the Body element i.e. Color,
         Font, Alignment */
         body {
-            background-image:linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)),url("../1.jpg");
+            background-image:url("../bridge.jpg");
 	    background-size: cover;	
             font-family: Verdana;
             text-align: center;
