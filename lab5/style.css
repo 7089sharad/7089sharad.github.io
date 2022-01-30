@@ -1,0 +1,23 @@
+<style>
+
+		/* Styling the Body element i.e. Color,
+		Font, Alignment */
+		body {
+			background: linear-gradient(to bottom, #ffcc99 11%, #003366 100%);
+			background-size: 1920px X 1080px;
+
+			font-family:lobster ;
+			text-align: center;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #fff;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+		
+		
+	</style>
